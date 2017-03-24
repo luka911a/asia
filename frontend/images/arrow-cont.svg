@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="6-contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-t-contact" transform="translate(-308.000000, -1099.000000)" fill="#FFFFFF">
+            <g id="chooseCity" transform="translate(15.000000, 936.000000)">
+                <g id="Group-7" transform="translate(34.000000, 139.000000)">
+                    <g id="ic-arrow" transform="translate(265.000000, 28.000000) rotate(-270.000000) translate(-265.000000, -28.000000) translate(245.000000, 8.000000)">
+                        <polygon points="16 13 25 19.5 16 26"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

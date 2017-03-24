@@ -1,0 +1,86 @@
+.show320 {
+	display: block !important;
+}
+.show640 {
+	display: none !important;
+}
+.show320.show640 {
+	display: block !important;
+}
+.show1200 {
+	display: none !important;
+	font-family: 'Proxima Nova';
+	font-size: 18px;
+	color: #7A7A7A;
+	line-height: 24px;
+}
+.show640.show1200 {
+	display: none !important;
+}
+span.show320 {
+	display: inline !important;
+}
+span.show640 {
+	display: none !important;
+}
+span.show320.show640 {
+	display: inline !important;
+}
+span.show1200 {
+	display: none !important;
+}
+span.show640.show1200 {
+	display: none !important;
+}
+@media screen and (min-width: 640px) {
+	.show320 {
+		display: none !important;
+	}
+	.show320.show640 {
+		display: block !important;
+	}
+	.show640 {
+		display: block !important;
+	}
+	.show640.show1200 {
+		display: block !important;
+	}
+	span.show320 {
+		display: none !important;
+	}
+	span.show320.show640 {
+		display: inline !important;
+	}
+	span.show640 {
+		display: inline !important;
+	}
+	span.show640.show1200 {
+		display: inline !important;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.show320.show640 {
+		display: none !important;
+	}
+	.show640 {
+		display: none !important;
+	}
+	.show1200 {
+		display: block !important;
+	}
+	.show640.show1200 {
+		display: block !important;
+	}
+	span.show320.show640 {
+		display: none !important;
+	}
+	span.show640 {
+		display: none !important;
+	}
+	span.show1200 {
+		display: inline !important;
+	}
+	span.show640.show1200 {
+		display: inline !important;
+	}
+}

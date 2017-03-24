@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head head data-path="tmp">
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#E5173F">	
+	<title>Азия</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"/>
+	<style>
+		.page-wrapper > *{
+			opacity: 0;
+		}
+	</style>
+	<script src="modernizr.js"></script>
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+	<script src="build/app.js" async="true"></script>
+	<link rel="stylesheet" href="build/style.css">
+</head>
+<body>
+	<div id="preloader">
+		<div class="container">
+			<img class="preloader-img" src="tmp/preloader/img140.jpg" alt="">	
+		</div>
+	</div>
+	<div id="simple-preloader"></div>
+	<div class="project-preloader-container" id="project-preloader">
+		<div class="img-container" id="project-preloader-img-serv">
+			<div class="img project-preload-img adaptive-image wait-load-image" data-id="p1" data-desktop-src="tmp/next-serv.jpg"></div>
+			<div class="img project-preload-img adaptive-image wait-load-image" data-id="p2" data-desktop-src="tmp/service.jpg"></div>
+		</div>
+		<div class="img-container" id="project-preloader-img-blog">	
+			<div class="img project-preload-img adaptive-image wait-load-image" data-id="p3" data-desktop-src="tmp/next-case.jpg"></div>
+			<div class="img project-preload-img adaptive-image wait-load-image" data-id="p4" data-desktop-src="tmp/blog-text.jpg"></div>
+		</div>
+		<div class="img-container" id="project-preloader-img-case">	
+			<div class="img project-preload-img adaptive-image wait-load-image" data-id="p5" data-desktop-src="tmp/next-case.jpg"></div>
+			<div class="img project-preload-img adaptive-image wait-load-image" data-id="p6" data-desktop-src="tmp/blog.jpg"></div>
+		</div> 
+	</div>
+	<div class="page-wrapper transition-animation-complete">
+		<div class="popups">
+			<div class="popup popup-letter popup-job view-popup" data-id="job-popup">
+				<div class="overlay">
+					<div class="popup-close view-popup-close"></div>
+					<div class="wrapper">
+						<div class="title">Хотите с нами работать?</div>
+						<section class="form-section">
+							<div class="responce view-form-response" data-id="job-form">
+								<div class="responce-inner"></div>
+							</div>
+							<form class="view-form" action="test-json-responce.json" data-id="job-form" data-ajax="true">
+								<div class="ln-tp">
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Имя</span>
+											<input type="text" class="input-text" data-required="true" name="name">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Телефон</span>
+											<input type="tel" class="input-text" data-required="true" name="tel">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper textarea">
+											<span class="input-placeholder">О себе</span>
+											<textarea class="input-text" rows="5"></textarea>
+										</label>
+									</div>
+								</div>
+								<div class="ln-sb">
+									<label for="file-add" class="more upload-done">
+										<input id="file-add" class="file-add" data-id="file-add" type="file" name="file">
+										<span>Прикрепить файл</span>
+										<div class="left"></div>
+										<div class="right"></div>
+										<div class="top-l"></div>
+										<div class="top-r"></div>
+										<div class="bot"></div>
+									</label>
+									<div class="btn-wrap">
+										<button type="submit" class="btn-popup"><span>Отправить</span></button>
+									</div>
+								</div>
+							</form>
+						</section>
+					</div>
+				</div>
+			</div>		
+			<div class="popup popup-help view-popup" data-id="help">
+				<div class="overlay">
+					<div class="wrapper">
+						<div class="title">Чем можем помочь?</div>
+						<div class="btns">
+							<div class="btn-popup view-popup-toggle" data-id="calc"><span>расчитать стоимость</span></div>
+							<div class="btn-popup view-popup-toggle" data-id="letter"><span>написать письмо</span></div>
+						</div>
+						<div class="search shift form-section">
+							<div class="responce view-form-response" data-id="search-form">
+								<div class="responce-inner"></div>
+							</div>
+							<form action="#" class="search-form view-form" data-ajax="true" data-id="search-form">
+								<div class="input-wrapper">
+				                    <span class="input-placeholder">Номер груза</span>
+				                    <input type="text" class="search-input" data-required="true" name="search">
+				                    <button type="submit" class="btn-search">
+					                	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="-290 381 31 31" 
+											 xml:space="preserve">
+										<style type="text/css">
+											.st0{fill:#C59C63;}
+										</style>
+										<title>ic</title>
+										<desc>Created with Sketch.</desc>
+										<g id="_x31_-main">
+											<g id="_x30_-t-btnHelp" transform="translate(-407.000000, -515.000000)">
+												<g id="_x2192_-btnHelp">
+													<g id="Group-4" transform="translate(197.000000, 510.000000)">
+														<g id="ic-arrow_1_" transform="translate(205.000000, 0.000000)">
+															<g id="ic" transform="translate(5.000000, 5.000000)">
+																<path id="Combined-Shape" class="st0" d="M-278.5,403.5c6.1,0,11-4.9,11-11s-4.9-11-11-11s-11,4.9-11,11
+																	S-284.6,403.5-278.5,403.5z M-278.5,402.5c-5.5,0-10-4.5-10-10s4.5-10,10-10s10,4.5,10,10S-273,402.5-278.5,402.5z"/>
+																<polygon id="ic-arrow" class="st0" points="-260.3,411.7 -260,412 -259.3,411.3 -259.5,411 -270.6,400 -271.3,400.7 						"/>
+															</g>
+														</g>
+													</g>
+												</g>
+											</g>
+										</g>
+										</svg>
+									</button>
+			                    </div> 
+			                </form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="popup popup-letter view-popup" data-id="letter">
+				<div class="overlay">
+					<div class="wrapper">
+						<div class="back view-popup-toggle" data-id="help"></div>
+						<div class="title">Написать письмо</div>
+						<section class="form-section">
+							<div class="responce view-form-response" data-id="popup-form">
+								<div class="responce-inner"></div>
+							</div>
+							<form class="view-form" action="#" data-id="popup-form" data-ajax="true">
+								<div class="ln-tp">
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Имя</span>
+											<input type="text" class="input-text" data-required="true" name="name">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Почта</span>
+											<input type="email" class="input-text" data-required="true" name="email">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper textarea">
+											<span class="input-placeholder">Сообщение</span>
+											<textarea class="input-text" rows="5"></textarea>
+										</label>
+									</div>
+								</div>
+								<div class="ln-sb">
+									<div class="btn-wrap">
+										<button type="submit" class="btn-popup"><span>Отправить</span></button>
+									</div>
+								</div>
+							</form>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div class="popup popup-calc view-popup" data-id="calc">
+				<div class="overlay">
+					<div class="wrapper">
+						<div class="back view-popup-toggle" data-id="help"></div>
+						<div class="title">Расчет стоимости</div>
+						<section class="form-section">
+							<form class="view-form" action="test-json-responce.json" data-id="calc-form" data-ajax="true">
+								<div class="ln-tp">
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Какаой товар</span>
+											<input type="text" class="input-text" data-required="true" name="product">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Колличество</span>
+											<input type="text" class="input-text" data-required="true" name="quantity">
+										</label>
+									</div>
+								</div>
+								<div class="ln-bt">
+									<div class="responce view-form-response return" data-id="calc-form">
+										<div class="responce-inner"></div>
+									</div>
+								</div>
+								<div class="ln-sb">
+									<div class="btn-wrap">
+										<button type="submit" class="btn-popup"><span>Написать нам</span></button>
+									</div>
+								</div>
+							</form>
+						</section>
+					</div>
+				</div>
+			</div>	
+			<div class="popup popup-call view-popup" data-id="call">
+				<div class="overlay">
+					<div class="wrapper">
+						<div class="inner-close view-popup-close"></div>
+						<section class="form-section">
+							<div class="responce view-form-response" data-id="call-form">
+								<div class="responce-inner"></div>
+							</div>
+							<div class="title">Обратный звонок</div>
+							<form class="view-form" action="#" data-id="call-form" data-ajax="true">
+								<div class="ln-tp">
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Имя</span>
+											<input type="text" class="input-text" data-required="true" name="name">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Номер телефона</span>
+											<input type="tel" class="input-text" data-required="true" name="tel">
+										</label>
+									</div>
+								</div>
+								<div class="ln-sb">
+									<div class="brn-wrap">
+										<input type="submit" class="submit" value="Отправить">
+									</div>
+								</div>
+							</form>
+							<div class="btn-popup-close view-popup-close"></div>
+						</section>
+					</div>
+				</div>	
+			</div>
+			<div class="popup popup-ask view-popup" data-id="ask">
+				<div class="overlay">
+					<div class="wrapper">
+						<div class="inner-close view-popup-close"></div>
+						<section class="form-section">
+							<div class="responce view-form-response" data-id="ask-form">
+								<div class="responce-inner"></div>
+							</div>
+							<div class="title">Ваш вопрос</div>
+							<form class="view-form" action="#" data-id="ask-form" data-ajax="true">
+								<div class="ln-tp">
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Имя</span>
+											<input type="text" class="input-text" data-required="true" name="name">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper textarea">
+											<span class="input-placeholder">Вопрос</span>
+											<textarea class="input-text" rows="5" data-required="true"></textarea>
+										</label>
+									</div>
+								</div>
+								<div class="ln-sb">
+									<div class="brn-wrap">
+										<input type="submit" class="submit" value="Отправить">
+									</div>
+								</div>
+							</form>
+							<div class="btn-popup-close view-popup-close"></div>
+						</section>
+					</div>
+				</div>	
+			</div>
+			<div class="menu view-popup" data-id="menu">
+				<div class="overlay">
+					<div class="wrapper">
+						<div class="wrap">
+							<nav>
+								<div class="container">
+									<a href="index.html" class="inner-link link-home" data-animation="simple">
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											 viewBox="0 0 24 39.7" style="enable-background:new 0 0 24 39.7;" xml:space="preserve">
+										<style type="text/css">
+											.st0{fill:#FFFFFF;}
+											.st1{fill:#C59C63;}
+										</style>
+										<g>
+											<rect x="2.4" y="37.8" class="st0" width="19.2" height="1.9"/>
+											<path class="st0" d="M12,29.7c-0.3,0-0.5,0-0.8-0.1v6.6h1.5v-6.6C12.5,29.7,12.3,29.7,12,29.7z"/>
+											<path class="st0" d="M21.1,17.2c-2.6,0-4.8-1.9-5.3-4.4H8.1c-0.5,2.5-2.7,4.4-5.3,4.4c-0.2,0-0.3,0-0.5,0c1,1.4,2.7,2.3,4.6,2.3h10
+												c1.9,0,3.6-0.9,4.6-2.3C21.5,17.2,21.3,17.2,21.1,17.2z"/>
+											<g>
+												<path class="st0" d="M23.5,25.4c-2.6,0-4.8-1.9-5.3-4.4H5.8c-0.5,2.5-2.7,4.4-5.3,4.4c-0.2,0-0.3,0-0.5,0c1,1.4,2.7,2.3,4.6,2.3
+													c1.2,0,2.3-0.4,3.2-1c1.2,0.6,2.6,1,4,1c1.5,0,2.9-0.4,4.2-1.1c0.9,0.7,2.1,1.1,3.4,1.1c1.9,0,3.6-0.9,4.6-2.3
+													C23.8,25.4,23.7,25.4,23.5,25.4z"/>
+												<path class="st0" d="M16.7,29v7.3h1.5v-6.7C17.7,29.4,17.2,29.3,16.7,29z"/>
+												<path class="st0" d="M5.8,29.5v6.7h1.5V29C6.9,29.2,6.4,29.4,5.8,29.5z"/>
+											</g>
+											<g>
+												<path class="st0" d="M18.8,8.9c-2.8,0-5.1-2-5.6-4.7L12,5.4l-1.1-1.1c-0.5,2.7-2.8,4.7-5.6,4.7c-0.1,0-0.2,0-0.4,0
+													c1,1.4,2.7,2.3,4.6,2.3h5.2v0c1.8-0.1,3.3-1,4.3-2.3C19,8.9,18.9,8.9,18.8,8.9z"/>
+												<rect x="10.6" y="0.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 2.1555 9.0483)" class="st0" width="2.7" height="2.7"/>
+											</g>
+										</g>
+										</svg>
+									</a>
+									<a href="about.html" class="inner-link" data-animation="simple"><span>О компании</span></a>
+									<a href="services.html" class="inner-link" data-animation="simple"><span>Услуги</span></a>
+									<a href="blog.html" class="inner-link" data-animation="simple"><span>Блог</span></a>
+									<a href="contacts.html" class="inner-link" data-animation="simple"><span>Контакты</span></a>
+									<a class="sub inner-link" href="addition-1.html" data-animation="simple"><span>вопрос-ответ</span></a>
+									<a class="sub inner-link" href="addition-2.html" data-animation="simple"><span>терминология</span></a>
+									<a class="sub inner-link" href="addition-3.html" data-animation="simple"><span>скачать</span></a>
+								</div>	
+							</nav>
+							<div class="r">
+								<div class="container show640 show1200">
+									<div class="item call">
+										<div class="img">
+											<div class="ico"></div>
+										</div>
+										<div class="decor"></div>
+										<a href="tel:8 (800) 555 34 88" class="tel">8 (800) 555 34 88</a>
+										<div class="btn-wrap">
+											<div class="ask view-popup-toggle" data-id="call">
+												<span>Заказть звонок</span>
+												<div class="left"></div>
+												<div class="right"></div>
+										 		<div class="top-l"></div>
+												<div class="top-r"></div>
+												<div class="bot"></div>
+											</div>
+										</div>
+									</div>
+									<div class="item send">
+										<div class="img">
+											<div class="ico"></div>
+										</div>
+										<div class="decor"></div>
+										<a href="mailto:info@asia-import.su" class="email">info@asia-import.su</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>		
+			</div>		
+		</div>
+		<div class="btn-popup-container">
+			<div class="btn-popup view-popup-toggle" data-id="help"></div>
+			<div class="btn-popup-close view-popup-close"></div>
+		</div>
+		<header class="wh">
+			<div class="hamburger-menu view-popup-toggle" data-id="menu">
+			  <div class="bar">
+			  	<div class="hover-top">
+			  		<div class="bar-top"></div>
+			  	</div>
+			  	<div class="hover-bot">
+			  		<div class="bar-bot"></div>
+			  	</div>
+			  </div>	
+			</div>
+			<a href="index.html" class="logo inner-link" data-animation="simple">
+				<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 220.5 180.6" style="enable-background:new 0 0 220.5 180.6;" xml:space="preserve">
+				<style type="text/css">
+					.st0{fill:#C4161C;}
+					.st1{fill:#000;}
+				</style>
+				<g>
+					<g>
+						<path class="st0" d="M134.1,87.6l-0.8-2.1c0.7-0.4,1.5-0.8,2.2-1.2l4.9,9.4l-2.7-10l3.4,5.8l-1.8-7.6c0.6-0.5,1.3-1,1.9-1.5
+							l1.1,2.9c0.5,1.4,1.8,2.2,3.2,2.3c1.5,0.1,2.5-1.3,2.6-1.5c4.4-7.2,6.8-15.4,6.8-23.8c0-24.9-20.3-45.2-45.2-45.2
+							c-24.9,0-45.2,20.3-45.2,45.2c0,8.3,2.3,16.3,6.5,23.4c0,0,1.1,1.9,2.9,1.9c1.4,0,2.7-0.9,3.2-2.3l1.1-2.9c0.6,0.5,1.3,1,1.9,1.5
+							l-1.8,7.6l3.4-5.8l-2.7,10l4.9-9.3c0.7,0.4,1.4,0.8,2.1,1.1l-0.8,2.1c-2.8,7.4,2.6,12.7,8.6,15.1c0.5,0.2,0.9,0.3,1.4,0.5l0,0
+							c0,0,0.7,0.2,0.9,0.3c0,0,0.1,0,0.1,0l0.4,0.1c4.3,1.3,8.7,2,13.2,2c5.8,0,11.4-1.1,16.8-3.2C131.8,99.8,136.7,94.6,134.1,87.6z
+							 M126.7,34.8c1.7,0.6,3.3,1.3,4.9,2l0.1,0c1.5,0.7,3,1.6,4.3,2.5l0.4,0.3l0,0c0.5,0.3,1.2,0.4,1.8,0.4c1.2,0,2.1-0.6,2.5-1.5
+							l0.1-0.4h0.8l-5.5,14.3h-0.9c0.2-1.1-0.1-2.3-0.6-3.2c-0.1-0.2-0.3-0.4-0.4-0.6c-1.1-1.5-2.3-2.9-3.8-4.1l-0.9-2.4
+							c2.3,0.8,4.5,1.8,6.3,3.2c-1.7-2-4.1-4-7.1-5.4c2,0.6,3.5,1,5.3,2.2c-1.6-1.6-3.4-3-6.2-4.2l-1.3-3.3
+							C126.4,34.7,126.7,34.8,126.7,34.8z M121.5,28.5h4.5v1h-0.2c-2.9,0-3.5,1.2-2.7,3.2l0.4,1.1h0l11.4,30.3c-0.2,0.6-0.4,1.3-0.6,1.9
+							l-4.3-8.1l2.9,10.3l-5.9-12.3l4.3,14.2l-4.4-8.4l3.1,11c-0.3,0.3-0.7,0.6-1,1L125,63.1h0l-2.3-6.3l-0.2-0.6l-4.8-13V38l4.6,8.7
+							l-3.8-12.3l6.9,14.3l-6.4-20.2h0.7H121.5z M101.7,55.8c0.4,0.6,1.2,0.9,2.4,1l0,0l0.6,0h14.6l0.5,1.4l-9,0.8l9.6,0.8l0,0
+							l-13.7,0.9l14.3,0.9l0.6,1.5h-6.8v0h-10.6l-0.4,0h-2.1l0,0c-1.3,0-2.3,0.3-3.1,0.9c-0.8,0.6-1.5,1.6-2,3l-0.1,0.4h-0.8l5.4-14.9
+							h0.8l0,0.1C101.2,54.1,101.2,55.1,101.7,55.8z M99.8,21.9h19.3c0,0,0,0,0,0v1h-0.2c-1.5,0-2.5,0.3-3.1,1c-0.6,0.6-0.9,1.5-0.9,2.7
+							h0l0,0.4v1.4h0l0,9.5l0,0v15.7h-1.9l-1.2-13.2l-1.1,12.6l-1.1-17.8l-1.1,17.8l-1.1-12.6l-1.2,13.2h-1.9V38.3l0,0l0-9.8l0-0.4v-1.4
+							h0c-0.1-1.2-0.4-2.1-0.9-2.7c-0.6-0.7-1.7-1-3.1-1h-0.2V21.9z M93.1,28.5h4.5h1.9h0.4l-6.4,20.2l6.9-14.3l-3.8,12.3l4.8-9.2v5.9
+							L90.2,73.5c-0.3-0.3-0.7-0.6-1-0.9l3-11L87.8,70l4.3-14.2l-5.9,12.3L89,57.9l-4.2,8.1c-0.2-0.6-0.5-1.3-0.6-1.9l11.7-31.1l0.1-0.2
+							c0,0,0,0,0,0l0.1-0.4c0.6-1.8,0-2.8-2.8-2.8h-0.2V28.5z M82.4,80.4c-4.7-3.3-8.2-7.4-10.1-11.9c-1.1-2.7-1.7-5.5-1.7-8.4
+							c0-0.4,0-0.8,0-1.2c0-0.2,0-0.4,0-0.5c0-0.2,0-0.4,0.1-0.6c0.7-6.8,4.9-13.2,11.7-18c1.6-1.1,3.3-2.1,5.2-3.1l0.2-0.1
+							c1.5-0.7,3.1-1.4,4.8-2l0.1,0l-0.9,2.2c-7,2.2-11.8,7-13.3,12.4c2.7-4.5,6.1-7.6,10.9-9.4c-7.3,3.9-11,10.8-10.9,16.7
+							c0.7-5.4,4.6-11.2,11.2-14.2l-0.9,2.3c-3.6,3.1-5.9,6.9-6.9,11c-0.2,0.7-0.3,1.4-0.4,2.1l0,0.2c0,0.3-0.1,0.6-0.1,0.9
+							c0,0.4,0,0.7,0,1.1c0,10,8.2,18.9,20.1,21.8V83c-5.5-0.2-10.5-1.9-14.6-4.5C90,81.1,93.9,83,98.4,84c-6.5-1-12.1-3.6-16.6-7.1
+							c4.8,4.7,11.5,8.3,19.5,9.6v1.2C94.2,86.6,87.6,84.1,82.4,80.4z M119.1,98.6H99.9c0,0,0,0,0,0v-1h0.2c1.5,0,2.5-0.3,3.1-1
+							c0.6-0.6,0.9-1.5,0.9-2.7h0l0-0.4V66.2h1.9l1.2,13.3l1.1-12.6l1.1,17.8l1.1-17.8l1.1,12.6l1.2-13.3h1.9v27.7h0
+							c0.1,1.2,0.4,2.2,0.9,2.7c0.6,0.7,1.7,1,3.1,1h0.2V98.6z M117.6,87.8v-1.3c8-1.3,14.7-4.9,19.4-9.6c-4.4,3.5-10.1,6.1-16.6,7.1
+							c4.5-1,8.4-3,11.6-5.5c-4,2.6-9,4.3-14.4,4.5V82c10.5-2.5,18.4-9.7,20-18.4l0-0.1l-0.8-2l5.1-0.8l-5.7-0.8l7.6-0.9l-8.3-0.9
+							l-0.4-1.2h13.3c0.1,0.3,0.1,0.7,0.1,1.1c0,0.2,0,0.4,0.1,0.6c0,0.2,0,0.3,0,0.5c0,0.4,0,0.8,0,1.2c0,2.9-0.6,5.7-1.7,8.4
+							c-1.9,4.5-5.4,8.6-10.1,11.9C131.5,84.1,124.9,86.7,117.6,87.8z"/>
+						<path class="st0" d="M109.5,0C76.1,0,49.1,27,49.1,60.4s27,60.4,60.4,60.4c33.4,0,60.4-27,60.4-60.4S142.8,0,109.5,0z
+							 M109.5,113.8c-29.4,0-53.4-24-53.4-53.4S80,7,109.5,7c29.4,0,53.4,24,53.4,53.4S138.9,113.8,109.5,113.8z"/>
+						<path class="st0" d="M61.1,60.7c0-20.8,12.9-38.6,31.3-46.2c-19.5,6.7-33.5,24.9-33.5,46.2c0,21.4,14,39.6,33.5,46.2
+							C73.9,99.3,61.1,81.5,61.1,60.7z"/>
+						<path class="st0" d="M126.6,14.4c18.4,7.6,31.3,25.5,31.3,46.2s-12.9,38.6-31.3,46.2c19.5-6.7,33.5-24.9,33.5-46.2
+							C160.1,39.3,146.1,21.1,126.6,14.4z"/>
+					</g>
+					<g>
+						<g>
+							<path class="st1" d="M70.4,152.2l-6.7-14.9h-5l0.4,0.9l-5.7,14c-0.4,0.9-0.7,1.5-1.1,1.9c-1.1,1-4,1-4.8,0.3c-0.4-0.3-0.6-0.9-0.6-1.7v-11.6
+								c0-1.5,0.9-2.2,2.6-2.2h0.6v-1.1H39.2v1.1h0.4c0.9,0,1.5,0.2,1.9,0.5c0.4,0.3,0.6,0.9,0.6,1.7v11.7c0,1.3-0.8,2-2.4,2h-0.5v1.1
+								h10.3h0.3h8.5v-1.1H58c-1.5,0-2.4-0.2-2.7-0.5c-0.3-0.3-0.3-0.9,0-1.7l4.9-11.9l3.9,8.5h-4.6l-0.7,1.6h6.1l0.8,1.8
+								c0.3,0.8,0.4,1.3,0.2,1.7c-0.3,0.4-0.9,0.6-1.9,0.6h-1.2v1.1h10.9v-1.1c-0.9-0.1-1.7-0.3-2.2-0.8
+								C71.1,153.7,70.8,153.1,70.4,152.2z"/>
+							<path class="st1" d="M35.1,147.1c-1-0.9-2.5-1.8-4.4-2.7c-1-0.5-2-1-3.1-1.4c-1.2-0.7-1.8-1.5-1.8-2.3c0-0.7,0.4-1.2,1.1-1.6
+								c0.6-0.3,1.3-0.5,2.1-0.5c1.3,0,2.5,0.4,3.5,1.1c1,0.7,1.6,1.7,2,2.8h1.3l-0.6-4.8h-0.7c-0.2,0.2-0.5,0.3-0.7,0.3
+								c-0.1,0-0.8-0.2-2.1-0.5c-0.9-0.2-1.9-0.3-3-0.3c-1,0-1.9,0.1-2.7,0.3c-1.2,0.3-2.2,0.9-2.9,1.6c-0.8,0.8-1.2,1.7-1.2,2.8
+								c0,1.3,0.6,2.5,1.7,3.5c0.7,0.6,2,1.3,3.8,2.1c1.8,0.8,2.9,1.4,3.4,1.7c1.2,0.8,1.9,1.7,1.9,2.8c0,0.5-0.2,1-0.5,1.5
+								c-0.7,0.9-2.1,1.3-3.7,1.3c-1.5,0-5.3,0.3-6.5-0.8c-0.4-0.4-0.8-1-1.2-1.8l-6.7-14.9h-5l0.4,0.9l-5.7,14
+								c-0.4,0.9-0.7,1.5-1.1,1.9c-0.5,0.5-1.3,0.8-2.2,0.8H0v1.1h8.9v-1.1H8.5c-1.5,0-2.4-0.2-2.7-0.5c-0.3-0.3-0.3-0.9,0-1.7l4.9-11.9
+								l3.9,8.5H9.8l-0.7,1.6h6.2l0.8,1.8c0.3,0.8,0.4,1.3,0.2,1.7c-0.3,0.4-0.9,0.6-1.9,0.6h-1.2v1.1h10.6h0.4h6.4v0
+								c3.8-0.1,6.4-1.9,6.4-5C37,149.5,36.4,148.2,35.1,147.1z"/>
+							<path class="st1" d="M170.4,139.8c-2.2-1.7-5.1-2.6-8.6-2.6c-3.8,0-6.8,0.9-9.2,2.8c-2.4,1.9-3.6,4.3-3.6,7.2c0,1.7,0.5,3.2,1.5,4.6
+								c1.1,1.5,2.6,2.7,4.7,3.5c1.8,0.7,3.9,1.1,6.1,1.1c1.9,0,3.7-0.3,5.3-0.8c2.2-0.7,4-1.9,5.3-3.5c1.3-1.6,2-3.5,2-5.6
+								C173.7,143.7,172.6,141.5,170.4,139.8z M168,151.4c-1.1,2.5-3.1,3.8-6.1,3.8c-2.4,0-4.3-0.9-5.7-2.6c-1.5-1.8-2.2-4-2.2-6.8
+								c0-1.4,0.3-2.7,0.9-3.8c1.2-2.3,3.3-3.5,6.2-3.5c2.4,0,4.3,0.9,5.8,2.8c1.3,1.7,2,3.9,2,6.4C168.7,148.9,168.5,150.2,168,151.4z"
+								/>
+							<path class="st1" d="M142.1,137.7c-1.4-0.3-3.4-0.5-5.9-0.5c-1.4,0-3.2,0.1-5.5,0.2l-4.3,0.2v1.1h0.7c1,0,1.7,0.2,2.1,0.5
+								c0.4,0.3,0.6,0.9,0.6,1.8v11.6c0,0.8-0.2,1.5-0.8,1.7c-0.6,0.3-2.1,0.4-3.7,0.4c-2.9-0.1-3.8-0.9-3.9-1.5c0-0.2-0.1-0.6-0.1-1.5
+								l-0.8-10.8c-0.1-0.7,0-1.3,0-1.5c0.1-0.3,0.4-0.5,1-0.6l1.4-0.1v-1.1h-7.2l-6.3,12.3l-6.5-12.3h-7.1v1.1c1,0,1.6,0.2,1.9,0.5
+								c0.3,0.3,0.4,0.9,0.3,1.7l-0.7,10.6c-0.1,0.9-0.1,1.6-0.2,2c-0.2,0.7-1.1,1.1-2.6,1.1c0,0-4,0.4-5.3-0.5
+								c-0.4-0.3-0.6-0.9-0.6-1.7v-11.6c0-1.5,0.9-2.2,2.6-2.2h0.6v-1.1H81v1.1h0.4c0.9,0,1.5,0.2,1.9,0.5c0.4,0.3,0.6,0.9,0.6,1.7v11.7
+								c0,1.3-0.8,2-2.4,2H81v1.1h9.6h1.1h2.8h2.5h5v-1.1c-0.9,0-1.6-0.1-2-0.3c-0.4-0.2-0.7-0.6-0.8-1.2c0-0.2,0-0.7,0-1.4l0.7-10.4
+								l7.7,14.5h0.8l7.5-14.8l0.8,10.4c0,0.6,0.1,1,0.1,1.4c0,0.8-0.2,1.3-0.6,1.6c-0.3,0.2-1,0.3-2,0.3h-0.6v1.1h9h1.6h3.3l0,0h10.5
+								v-1.1h-1c-1.8,0-2.7-0.7-2.7-2.1v-14.2h1.8c4,0,6,2.1,6,5.2c0,2.6-1.7,4.7-5.1,5.1v1.6c3.9-0.2,10.1-1.3,10.1-6.9
+								C147.1,141.1,145.7,138.5,142.1,137.7z"/>
+							<path class="st1" d="M219.9,137.2h-1.1c-0.4,0.3-0.9,0.5-1.6,0.5h-16c-0.4,0-0.7,0-1-0.1c-0.1,0-0.3-0.2-0.6-0.4h-1.1l-0.6,5.5h1.4
+								c0.2-1.1,0.5-1.9,0.7-2.3c0.2-0.5,0.6-0.8,1.2-1c0.3-0.1,0.9-0.1,1.7-0.1h4v13.4c0,1.5-0.9,2.2-2.6,2.2h-1.1c0,0-3.9,0.1-5.9-0.5
+								c-0.7-0.2-1.3-0.7-2-1.3c-1.4-1.5-2-2.2-2.7-3c-1-1.2-1.9-2.1-2.7-2.7c3.3-0.8,5-2.4,5-4.7c0-1.3-0.5-2.4-1.6-3.3
+								c-0.9-0.7-2-1.3-3.4-1.6c-1.4-0.3-3.4-0.5-5.9-0.5c-1.4,0-3.2,0.1-5.5,0.2l-4.3,0.2v1.1h0.7c1,0,1.7,0.2,2.1,0.5
+								c0.4,0.3,0.6,0.9,0.6,1.8v11.6c0,0.8-0.3,1.4-0.8,1.7c-0.4,0.3-1.1,0.4-2.2,0.4h-0.5v1.1h11.7v-1.1h-1c-1.8,0-2.7-0.7-2.7-2.1
+								v-2.8v-1.7V147v-2.4v-6.1h1.8c4,0,6,1.4,6,4.2c0,1.6-0.6,2.8-1.9,3.4c-0.8,0.4-1.8,0.7-3.1,0.7v1.3c0.7,0.5,1.3,1.1,1.8,1.6
+								l1.9,2.3c0.8,0.9,1.1,1.3,1.7,1.9c0.6,0.5,1.1,0.9,1.8,1.1c1.2,0.5,3.1,0.8,5.7,0.8c0.6,0,6.6,0,6.6,0h11v-1.1h-0.8
+								c-1,0-1.8-0.1-2.2-0.4c-0.5-0.3-0.7-0.9-0.7-1.8v-13.4h3.9c0.9,0,1.6,0.1,2,0.2c0.5,0.2,0.9,0.7,1.2,1.4c0.1,0.3,0.3,0.9,0.4,1.8
+								h1.4L219.9,137.2z"/>
+						</g>
+						<g>
+							<path class="st0" d="M62.6,174.7c0.9,0,1.5,0.1,1.9,0.1c0.7,0.1,1.1,0.5,1.1,1.2v3c-0.7,0.4-1.6,0.6-2.6,0.6
+								c-1.7,0-3.1-0.6-4.3-1.8c-1.1-1.2-1.7-2.6-1.7-4.4c0-1.1,0.2-2.2,0.7-3.1c1-1.9,2.8-2.8,5.2-2.8c0.8,0,1.6,0.1,2.3,0.4
+								c1.4,0.6,2.4,1.6,2.8,3.1h1v-3.9h-0.6c-0.2,0.2-0.4,0.3-0.7,0.3c-0.2,0-0.6-0.1-1.3-0.2c-1.6-0.4-2.9-0.5-4-0.5
+								c-2.6,0-4.7,0.6-6.4,1.9s-2.5,2.9-2.5,4.9c0,1.4,0.3,2.6,1,3.7c1.4,2.3,4.2,3.4,8.2,3.4c2,0,4.2-0.5,6.4-1.4v-3.2
+								c0-0.5,0.1-0.9,0.4-1.1c0.3-0.2,0.7-0.3,1.3-0.3v-0.8h-8.2V174.7z"/>
+							<path class="st0" d="M93.3,178.2c-1-1.1-1.5-1.6-2-2.2c-0.8-0.9-1.4-1.6-2-2c2.4-0.6,3.7-1.7,3.7-3.5c0-1-0.4-1.8-1.2-2.5
+								c-0.6-0.5-1.5-0.9-2.5-1.2c-1-0.2-2.5-0.3-4.3-0.3c-1,0-2.4,0.1-4.1,0.2l-3.2,0.2v0.8h0.5c0.7,0,1.2,0.1,1.5,0.4
+								c0.3,0.2,0.4,0.7,0.4,1.3v8.6c0,0.6-0.2,1-0.6,1.3c-0.3,0.2-0.8,0.3-1.6,0.3h-0.4v0.8h8.7v-0.8h-0.7c-1.3,0-2-0.5-2-1.6v-2v-1.3
+								v-0.9v-1.8v-4.5H85c2.9,0,4.4,1,4.4,3.1c0,1.2-0.5,2-1.4,2.5c-0.6,0.3-1.3,0.5-2.3,0.6v0.9c0.5,0.4,0.9,0.8,1.3,1.2l1.4,1.7
+								c0.6,0.7,0.8,1,1.2,1.4c0.4,0.4,0.8,0.6,1.3,0.8c0.9,0.4,2.3,0.6,4.2,0.6c0.7,0,1.2,0,1.5,0v-0.8c-0.8-0.1-1.4-0.2-1.8-0.3
+								C94.3,178.9,93.8,178.6,93.3,178.2z"/>
+							<path class="st0" d="M138.2,167.8h0.4c0.5,0,0.9,0.1,1.2,0.2c0.5,0.3,0.8,1,0.8,2v5.2c0,1.3-0.4,2.3-1.3,3c-0.8,0.7-2,1-3.5,1
+								c-0.8,0-1.5-0.1-2.2-0.3c-1.5-0.5-2.2-1.6-2.2-3.2v-6.4c0-1,0.6-1.5,1.7-1.5h0.4v-0.8h-7.7v0.8h0.4c0.6,0,1.1,0.1,1.3,0.3
+								c0.2,0.2,0.4,0.6,0.4,1.2v6.4c0,1.7,0.7,3,2.2,3.9c1.3,0.7,2.9,1.1,5,1.1c2.2,0,3.9-0.5,5.1-1.4c1.2-1,1.8-2.4,1.8-4.3v-5.4
+								c0-0.7,0.2-1.1,0.6-1.4c0.3-0.2,0.9-0.4,1.7-0.4h0.2v-0.8h-6.4V167.8z"/>
+							<path class="st0" d="M158.5,175.1v1.2c2.9-0.1,7.4-1,7.4-5.1c0-1.9-1.1-3.8-3.7-4.3c-1-0.2-2.5-0.3-4.3-0.3c-1,0-2.4,0.1-4.1,0.2
+								l-3.2,0.2v0.8h0.5c0.7,0,1.2,0.1,1.5,0.4c0.3,0.2,0.4,0.7,0.4,1.3v8.5c0,0.6-0.2,1-0.6,1.3c-0.3,0.2-0.8,0.3-1.6,0.3h-0.4v0.8
+								h8.7v-0.8h-0.7c-1.3,0-2-0.5-2-1.6v-10.4h1.3c2.9,0,4.4,1.6,4.4,3.8C162.2,173.2,161,174.7,158.5,175.1z"/>
+							<path class="st0" d="M117.3,168.4c-1.6-1.3-3.7-1.9-6.3-1.9c-2.8,0-5,0.7-6.8,2.1c-1.8,1.4-2.7,3.1-2.7,5.3
+								c0,1.2,0.4,2.4,1.1,3.4c0.8,1.1,1.9,2,3.4,2.6c1.3,0.5,2.8,0.8,4.5,0.8c1.4,0,2.7-0.2,3.9-0.6c1.7-0.5,3-1.4,3.9-2.6
+								c1-1.2,1.5-2.6,1.5-4.1C119.7,171.3,118.9,169.7,117.3,168.4z M115.5,176.9c-0.8,1.8-2.3,2.8-4.5,2.8c-1.7,0-3.2-0.6-4.2-1.9
+								c-1.1-1.3-1.6-3-1.6-5c0-1.1,0.2-2,0.6-2.8c0.9-1.7,2.4-2.5,4.5-2.5c1.8,0,3.2,0.7,4.2,2c1,1.3,1.5,2.8,1.5,4.7
+								C116.1,175.2,115.9,176.1,115.5,176.9z"/>
+						</g>
+					</g>
+				</g>
+				</svg>
+			</a>
+			<div class="asia show1200">азия импорт</div>
+			<div class="tel show640 show1200">8 800 555–34–88</div>
+			<div class="clear show640"></div>
+			<div class="social show640 show1200">
+				<a href="#" class="fb">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="-300.2 389.3 7.7 14.9" style="enable-background:new -300.2 389.3 7.7 14.9;" xml:space="preserve">
+						<style type="text/css">
+							.st0{enable-background:new    ;}
+							.st1{fill:#FFFFFF;}
+						</style>
+						<g id="_x31_-main">
+							<g id="_x31_-t-main" transform="translate(-574.000000, -66.000000)">
+								<g id="I">
+									<g id="header">
+										<g id="Group-5" transform="translate(485.000000, 35.000000)">
+											<g id="Group" transform="translate(89.000000, 29.000000)">
+												<g class="st0">
+													<path class="st1" d="M-292.4,393.8h-1.4c-1.1,0-1.3,0.5-1.3,1.3v1.7h2.6l-0.3,2.6h-2.3v6.8h-2.7v-6.8h-2.3v-2.6h2.3v-1.9
+														c0-2.3,1.4-3.5,3.4-3.5c1,0,1.8,0.1,2,0.1V393.8z"/>
+												</g>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</a>
+				<a href="#" class="vk">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-295.6 392.1 17.1 9.8" style="enable-background:new -295.6 392.1 17.1 9.8;" xml:space="preserve">
+						<style type="text/css">
+							.st0{enable-background:new    ;}
+							.st1{fill:#FFFFFF;}
+						</style>
+						<g id="_x31_-main">
+							<g id="_x31_-t-main" transform="translate(-607.000000, -70.000000)">
+								<g id="I">
+									<g id="header">
+										<g id="Group-5" transform="translate(485.000000, 35.000000)">
+											<g id="Group" transform="translate(89.000000, 29.000000)">
+												<g class="st0">
+													<path class="st1" d="M-246.8,401.4c-1.7,2.3-1.9,2.1-0.5,3.4c1.4,1.3,1.7,1.9,1.7,2c0,0,0.6,1-0.6,1l-2.3,0
+														c-0.5,0.1-1.1-0.3-1.1-0.3c-0.9-0.6-1.7-2.1-2.3-1.9c0,0-0.6,0.2-0.6,1.6c0,0.3-0.1,0.5-0.1,0.5s-0.2,0.2-0.5,0.2h-1
+														c-2.3,0.1-4.2-1.9-4.2-1.9s-2.2-2.2-4.1-6.7c-0.1-0.3,0-0.4,0-0.4s0.1-0.2,0.5-0.2l2.4,0c0.2,0,0.4,0.2,0.4,0.2
+														s0.1,0.1,0.2,0.3c0.4,1,0.9,1.9,0.9,1.9c0.9,1.8,1.5,2.2,1.8,2c0,0,0.5-0.3,0.4-2.5c0-0.8-0.3-1.2-0.3-1.2
+														c-0.2-0.3-0.6-0.4-0.8-0.4c-0.1,0,0.1-0.3,0.4-0.5c0.4-0.2,1.2-0.2,2.1-0.2c0.7,0,0.9,0.1,1.2,0.1c0.8,0.2,0.6,1,0.6,2.9
+														c0,0.6-0.1,1.5,0.3,1.7c0.2,0.1,0.7,0,1.8-1.9c0,0,0.5-0.9,1-2c0.1-0.2,0.2-0.3,0.2-0.3s0.1-0.1,0.3-0.1l2.6,0
+														c0.8-0.1,0.9,0.3,0.9,0.3C-245.3,399.2-245.7,400-246.8,401.4z"/>
+												</g>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</a>
+			</div>
+		</header>
+		<div class="replaceable content-replaceable" data-id="content-replaceable" data-page="service">
+			<main class="service-page">
+				<div class="main-slide type-1 item-1">
+					<div class="top adaptive-image wait-load-image" data-desktop-src="tmp/next-serv.jpg">
+						<div class="container">
+							<div class="wrapper">
+								<div class="ico"></div>
+								<div class="num">01</div>
+								<div class="title">Доставка сборных грузов</div>
+							</div>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="bottom">
+							<div class="item">
+								<div class="l">сроки</div>
+								<div class="r">< 2<span>месяцев</span></div>
+							</div>
+							<div class="item">
+								<div class="l">цена</div>
+								<div class="r">> 300 000<div class="roub">ч</div></div>
+							</div>
+							<div class="item">
+								<div class="l">вес</div>
+								<div class="r">> 200<span>кг</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="wrapper">
+						<div class="user-text">
+							<div class="block-right scroll-block">
+								<div class="r show640 show1200">
+									<img src="tmp/text.jpg" alt="">
+								</div>
+								<div class="l">
+									<h4>Доставляем ваш груз регулярно и в кратчайший срок</h4>
+									<p>Для всех тех клиентов, у которых существуют строгие договора, в которых прописана строгая степень ответственности по поставке.</p>
+									<p>Также сборные перевозки из Китая являются наиболее экономически выгодной формой доставки груза, так как клиенту не приходится заказывать товар на полный объем контейнера, тем самым не забивая склад неликвидной продукцией.</p>
+									<h4>Перевозка сборных грузов на одном транспортном средстве разными заказчиками</h4>
+									<p>Безусловно, доставка сборного груза из Китая привлекает тех клиентов, кто ценит свое время, кто не может отправить морским видом транспорта, кому надо уложиться в 21 — 24 дня со дня отгрузки.</p>
+								</div>
+								<div class="r show320">
+									<img class="right" src="tmp/text.jpg" alt="">
+								</div>	
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="list">
+							<div class="name scroll-block">перевозка делится на следующие этапы:</div>
+							<ol>
+								<li class="scroll-block">
+									<div class="title">Доставка по Китаю</div>
+									<div class="discr">
+										<p>Мы доставляем груз по Китаю в Хэйхэ, Дунин, Гуанчжоу и консолидируем его на наших складах</p>
+									</div>
+								</li>
+								<li class="scroll-block">
+									<div class="title">Докумнеты</div>
+									<div class="discr">
+										<p>Затем собираем информацию по каждому из товаров и подготавливаем необходимую отгрузочную документацию</p>
+									</div>
+								</li>
+								<li class="scroll-block">
+									<div class="title">Перевозка</div>
+									<div class="discr">
+										<p>Сборный груз из Китая ввозится на территорию РФ и помещается на склад временного хранения</p>
+									</div>
+								</li>
+								<li class="scroll-block">
+									<div class="title">Таможня</div>
+									<div class="discr">
+										<p>После этого происходит таможенное оформление, которое наша компания берет на себя</p>
+									</div>
+									
+								</li>
+								<li class="scroll-block">
+									<div class="title">Доставка по России</div>
+									<div class="discr">
+										<p>Ваш груз доставляется в транспортную компанию для доставки по РФ. Вы можете оформить доставку как до терминала транспортной компании в вашем городе, так и «до двери»</p>
+									</div>
+								</li>
+							</ol>
+						</div>
+						<div class="info-block-2 scroll-block">
+							<div class="ico"></div>
+							<div class="text">На первые 4 этапа уходит не более 10 дней</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<div class="case scroll-block">
+				<div class="top" style="background-image: url(tmp/serv-1.jpg)"></div>
+				<a href="#" class="bottom show1200">
+					<div class="name">кейс</div>
+					<div class="title">20 сварочных тракторов из города Лоянь</div>
+					<div class="discr">Заказ на доставку поступил от очень крупной фирмы по прокладке газо и нефтепроводов, люди в ней работают очень серьезные, поэтому шанса на ошибку.</div>
+				</a>
+				<div class="wrapper">
+					<a href="#" class="bottom show320 show640">
+						<div class="name">кейс</div>
+						<div class="title">20 сварочных тракторов из города Лоянь</div>
+						<div class="discr">Заказ на доставку поступил от очень крупной фирмы по прокладке газо и нефтепроводов, люди в ней работают очень серьезные, поэтому шанса на ошибку.</div>
+					</a>
+				</div>
+			</div>
+			<a href="service.html" class="next-service scroll-block project-preview inner-link project-preview" data-animation="project" data-id="p2" data-text="следующая услуга">
+				<div class="item item-2 link-editor">
+					<svg class="ov" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0">
+					  <defs>
+					    <mask id="mask">
+					      <rect x="0" y="0" width="100%" height="100%" fill="#fff" fill-opacity=".75" />
+					      <circle r="81" cx="0" cy="-81" fill="#000" fill-opacity="1" stroke="none" />
+					    </mask>
+					  </defs>
+					</svg>
+					<svg class="ov" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+					  <rect x="0" y="0" width="100%" height="100%" mask="url(#mask)" fill="#111"/>
+					</svg>
+					<div class="img" style="background-image: url(tmp/service.jpg)"></div>
+					<div class="container">
+						<div class="wrapper">
+							<div class="ico"></div>
+							<div class="num">02</div>
+							<div class="title">Контейнерные перевозки</div>
+						</div>
+					</div>
+					<div class="arrow">
+						<svg class='progress-bar'>
+							<circle class='progress' cx='50%' cy='51%' r='47%'></circle>
+						</svg>
+					</div>
+				</div>
+			</a>
+		</div>	
+		<footer class="scroll-block" style="display: none" data-active="true">
+			<div class="footer-close" data-id="close"></div>
+			<div class="wrapper">
+				<div class="thanks">
+					<span>Спасибо</span>
+				</div>
+				<div class="circle amend" style="display: block;" data-id="circle-1">
+					<div class="ico"></div>
+					<div class="container">
+						<span>Нашли товар</span>
+					</div>
+					<div class="hidden">
+						<img src="tmp/footer.jpg" alt="">
+						<div class="container">
+							<span>Поиск поставщиков</span>
+						</div>
+					</div>
+				</div>
+				<div class="circle amend" style="display: none;" data-id="circle-2">
+					<div class="ico"></div>
+					<div class="container">
+						<span>Точно</span>
+					</div>	
+					<div class="hidden">
+						<img src="tmp/footer.jpg" alt="">
+						<div class="container">
+							<span>Поиск поставщиков</span>
+						</div>
+					</div>
+				</div>
+				<div class="circle amend" style="display: none;" data-id="circle-3">
+					<div class="ico"></div>
+					<div class="container">
+						<span>Точно точно</span>
+					</div>	
+					<div class="hidden">
+						<img src="tmp/footer.jpg" alt="">
+						<div class="container">
+							<span>Поиск поставщиков</span>
+						</div>
+					</div>
+				</div>
+				<div class="amend-block amend" data-id="block">
+					<div class="top shift">
+						<div class="btn btn-yes" data-id="yes">
+							<span>Да</span>
+						</div>
+						<div class="btn btn-no" data-id="no">
+							<span>Нет</span>
+						</div>
+						<p>Мы сотрудничаем с 27 поставщиками из Китая</p>
+					</div>
+					<div class="bottom">
+						<div class="title">если вы еще не определились</div>
+						<p>Наши партнёры, экспортируют более 30% всего рынка товаров в Китае. Оставьте контакты, чтобы мы с вами могли связаться</p>
+						<section class="form-section">
+							<div class="responce view-form-response" data-id="simple-form">
+								<div class="responce-inner"></div>
+							</div>
+							<form class="view-form" action="test-json-responce.json" data-id="simple-form" data-ajax="true">
+								<div class="ln-tp">
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Имя</span>
+											<input type="text" class="input-text" data-required="true" name="name">
+										</label>
+									</div>
+									<div class="ln">
+										<label class="input-wrapper">
+											<span class="input-placeholder">Почта</span>
+											<input type="email" class="input-text" data-required="true" name="email">
+										</label>
+									</div>
+								</div>
+								<div class="ln-sb">
+									<div class="brn-wrap">
+										<input type="submit" class="submit" value="Отправить">
+									</div>
+								</div>
+							</form>
+						</section>
+					</div>
+				</div>
+				<div class="dev">
+					<span>Сделано в</span>
+					<a href="http://redcollar.ru/">Red Collar</a>
+				</div>
+			</div>	
+		</footer>	
+	</div>
+</body>
+</html>

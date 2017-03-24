@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="39px" viewBox="0 0 24 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="6-contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-m-contact" transform="translate(-180.000000, -1132.000000)" fill="#E5173F">
+            <g id="map-copy-2" transform="translate(0.000000, 1040.000000)">
+                <g id="marker" transform="translate(65.000000, 92.000000)">
+                    <path d="M127,0 C120.4,0 115,5.4 115,12 C115,21 127,38.4 127,38.4 C127,38.4 139,21 139,12 C139,5.4 133.6,0 127,0 L127,0 Z M127,6 C130.36,6 133,8.64 133,12 C133,15.36 130.36,18 127,18 C123.64,18 121,15.36 121,12 C121,8.64 123.64,6 127,6 L127,6 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
